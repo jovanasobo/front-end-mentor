@@ -10,7 +10,7 @@
 * [Contact](#contact)
 
 ## General info
- I used  this project for improving my skils, and learning  technologies.
+ I used  this project for improving my skills, and learning  technologies.
  Website is responsive for mobile device max-width 375px.
 
 
@@ -20,7 +20,8 @@
 
 ## Setup
 To clone and run this application, you'll need Git and Node.js (which comes with npm) installed on your computer. From your command line:
-`# Clone this repository
+```
+# Clone this repository
 $ git clone git@github.com:jovanasobo/front-end-mentor.git
 
 # Go into the repository
@@ -28,11 +29,11 @@ $ cd FrontEndMentor
 
 # Install dependencies
 $ npm install
-$ npm install parcel
+$ npm install -g parcel-bundlerl
 
 # Run the app
 $ parcel index.html
-`
+```
 
 ## Status
 Project is:  _finished_
