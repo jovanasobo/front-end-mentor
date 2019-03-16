@@ -1,0 +1,143 @@
+footer{
+    @media #{$mq-sm-up}{
+      height: 845px;
+    }
+    .top{
+        img{
+            position: relative;
+            top: 10px;
+            width: 100%;
+        }
+    }
+    .wrapper{
+        position: relative;
+        width: 100%;
+        background:$darkcyan;
+        height: 480px;
+        @media #{$mq-sm-up}{
+            height: 800px;
+           
+        }
+        .info{
+            position: absolute;
+            left:105px;
+            top: 130px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between; 
+            @media #{$mq-sm-up}{
+                display: flex;
+                flex-direction: column-reverse;
+                
+            } 
+            .social{
+                position: relative;
+                width: 23%;
+                @media #{$mq-sm-up}{
+                    width: 90%;
+                    right: 70px;
+                    top:60px;
+                }
+              .name {
+                   position: relative;
+                   bottom: 10px;
+                   left: 10px;
+                   font-family:$headerFont;
+                   font-weight: 900;
+                   color: white;
+                   font-size: 2.2rem; 
+               }
+               p{
+                   text-align: centar;
+                   color: $white;
+                   font-size: 1.2;
+                   margin:10px 0px;
+                   @media #{$mq-sm-up}{
+                    line-height: 1.5;
+                   }
+               }
+               img{
+                   display: block;
+                   margin-top: 25px;
+                   @media #{$mq-sm-up}{
+                    margin-top: 45px;
+                   }
+                
+               }
+               .email{
+                margin-top: 0px;
+                @media #{$mq-sm-up}{
+                    margin-top: -15px;
+                }
+            }
+               .contact{
+                   color: white;
+                  position: relative;
+                  bottom: 30px;
+                  left: 45px;    
+               }
+               .socialNet{
+                   .fab{
+                       color: white;
+                       width: 30px;
+                       font-size: 2rem;
+                       @media #{$mq-sm-up}{
+                        margin: 0 12px 0 0;
+                       }
+            
+                   }
+               }
+            }
+            .news{
+                width: 45%;
+                position: relative;
+                right: 30px;
+                @media #{$mq-sm-up}{
+                    width: 100%;
+                    right: 80px;
+                     bottom: 32px;
+                }
+                h3{
+                    color: $white;
+                    font-size: 1.5rem;
+                    text-transform: uppercase;
+                }
+                p{
+                   text-align: centar;
+                   color: $white;
+                   font-size: 1.2;
+                   margin:30px 0px;
+                   width: 350px;
+                   @media #{$mq-sm-up}{
+                    width: 320px;
+                    text-align: left;
+                    line-height: 1.5;
+                   }
+                }
+                input{
+                    width:310px;
+                    height: 50px;
+                    border-radius: 4px;
+                    border: none;
+                }
+                button{
+                    width:155px;
+                    height: 50px;
+                    border-radius: 4px;
+                    border: none;
+                    color: $white;
+                    background:$pink;
+                    font-weight: 600;
+                    font-size: 1rem;
+                    margin-left: 30px;
+                    box-shadow: none;
+                    @media #{$mq-sm-up}{
+                        position: relative;
+                        left: 122px;
+                        top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

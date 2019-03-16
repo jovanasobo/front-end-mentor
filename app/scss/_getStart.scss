@@ -1,0 +1,28 @@
+.getStart{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    @media #{$mq-sm-up}{
+        height: 440px;
+    }
+    h2{
+        position: absolute;
+        top:158px;
+        @media #{$mq-sm-up}{
+            top:120px;
+        }
+    }
+    button{
+        top:255px;
+        @media #{$mq-sm-up}{
+            top:240px;
+            padding: 8px;
+            width: 210px;
+            height: 45px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+    }
+}

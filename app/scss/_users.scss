@@ -1,0 +1,12 @@
+.users{
+    &__midle{
+        img{
+            width: 510px;
+            height: 380px; 
+            @media #{$mq-sm-up}{
+                width: 275px;
+                height: 206px; 
+            }
+        }
+    }
+}

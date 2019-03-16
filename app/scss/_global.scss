@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: $bodyFont;
+}
+
+//Media queries
+$mq-sm-up:" only screen and (max-device-width:375px)";
+
+body {
+    background: $white;
+    width: 1440px;
+    margin: 0 auto;
+
+    @media #{$mq-sm-up} {
+        width: 400px;
+    }
+
+}
+
+p {
+    color: blue;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hstyle {
+
+    font-family: $headerFont;
+    color: $darkcyan;
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+
+    @media #{$mq-sm-up} {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}
+
+.pstyle {
+    color: $darkcyan;
+    font-weight: 400;
+
+    @media #{$mq-sm-up} {
+        text-align: center;
+        width: 340px;
+    }
+}
+
+button {
+    border-width: 2px 4px;
+    border-radius: 40px;
+    border: 1px solid $pink;
+    padding: 10px 30px;
+    background: white;
+    box-shadow: 0 10px 20px rgba(167, 167, 167, 0.25), 0 6px 6px rgba(167, 167, 167, 0.25);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+}

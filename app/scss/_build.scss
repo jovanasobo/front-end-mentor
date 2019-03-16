@@ -1,0 +1,65 @@
+.build{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:150px;
+    min-height: 370px;
+    @media #{$mq-sm-up}{
+        flex-flow: row wrap;
+        margin-top: 90px;
+    }
+    
+    &__header{
+        font-family: $headerFont;
+        color:$darkcyan;
+        font-weight: 700;
+        font-size: 3rem;
+        @media #{$mq-sm-up}{
+            width: 284px;
+            height: 70px;
+            font-size: 1.6rem;
+            text-align: center;
+        }
+    }
+    &__paragraph{
+        position: absolute;
+        width:620px;
+        top:100px;
+        @media #{$mq-sm-up}{
+            width: 360px;
+        }
+        p{
+       color: $darkcyan;
+       font-size: 1.3rem;
+       text-align: center;
+       font-weight: 500;
+       line-height:1.5;
+       @media #{$mq-sm-up}{
+         position: relative;
+         left: 35px;
+         font-size: 1rem;
+         font-weight: 600;
+         width: 290px;
+        }
+        }
+    }
+
+    &__button{
+        position: absolute;
+        padding: 25px 93px;
+        top: 240px;
+        background: $pink;
+        color:$white;
+        font-weight: 700;
+        font-size: 1.2rem;
+        @media #{$mq-sm-up}{
+            width: 250px;
+            height: 50px;
+            top: 270px;
+            padding: 10px;
+            font-size: 1rem;
+            box-shadow: 0 5px 10px rgba(167, 167, 167, 0.25), 0 3px 3px rgba(167, 167, 167, 0.25);
+        }
+    }
+}

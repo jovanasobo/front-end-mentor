@@ -1,0 +1,50 @@
+.flow{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height:600px;
+    margin-bottom: 100px;
+    @media #{$mq-sm-up}{
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    &__img{
+        position: relative;
+        top:230px;
+        left:135px;
+        @media #{$mq-sm-up}{
+            top: 130px;
+            left: 170px;
+            height: 200px;
+        }
+        img{
+        width: 535px;
+        height: 378px;
+        @media #{$mq-sm-up}{
+            width: 275px;
+            height: 192px;
+        }
+        }
+    }
+    &__content{
+        position: relative;
+        top:358px;
+        width: 32%;
+        right: 220px;
+        @media #{$mq-sm-up}{
+            height: 200px;
+            width: 100%;
+            top:398px;
+            right: 140px;
+        }
+        p{
+            
+            text-align: justify;
+            @media #{$mq-sm-up}{
+                text-align: center;
+            }
+        }
+    }
+
+}
